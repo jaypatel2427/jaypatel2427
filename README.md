@@ -1,15 +1,23 @@
 <div align="center">
+
+<br></br>
   
 <img src="./assets/header-banner1.svg" alt="Jay Patel header banner" width="100%">
 
 <br></br>
+
 <img src="assets/header-banner.svg" alt="header banner" width="100%"/>
 
+<br></br>
 
 <img src="./assets/typing-bio2.svg" alt="typing bio">
 
+<br></br>
 
 <img src="assets/typing-bio.svg" alt="typing bio"/>
+
+<br></br>
+
 <background style="background-image:url('https://i.pinimg.com/originals/e2/8d/61/e28d61b0ce1b686bbd9c19b98912101f.gif');position:absolute;top:0;left:0;width:100%;height:1100%;z-index:-1;"></background>
 
 </div>
