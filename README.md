@@ -26,23 +26,18 @@
 
 <br/>
 
+<div align="center">
+ <background style="background-image:url('https://i.pinimg.com/originals/e2/8d/61/e28d61b0ce1b686bbd9c19b98912101f.gif');position:absolute;top:0;left:0;width:100%;height:1100%;z-index:-1;"></background>
+  
+  <img src="assets/profile-avatar.png" width="500" style="border-radius:12px;border:3.6px solid #39ff14;" alt="profile avatar"/>
+</div>
 
-<table align="center" style="border: none;" border="0">
-<tr>
-<td align="center" width="260" style="border: none;">
-  <img src="assets/profile-avatar.png" width="360" style="border-radius:12px;border:3.6px solid #39ff14;" alt="profile avatar"/>
-</td>
-<td align="center" width="260" style="border: none;">
-  <img src="assets/kali-dragon.gif" width="200" style="border-radius:12px;border:3.6px solid #ff0000;" alt="kali dragon animation"/>
-</td>
-</tr>
-</table>
+
 
 <br></br>
 
 <img src="assets/divider-glitch.svg" width="100%"/>
 
-<br></br>
 
 ## `whoami`
 
@@ -74,6 +69,11 @@
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 
+</div>
+
+<div align="center">
+  <background style="background-image:url('https://i.pinimg.com/originals/e2/8d/61/e28d61b0ce1b686bbd9c19b98912101f.gif');position:absolute;top:0;left:0;width:100%;height:1100%;z-index:-1;"></background>
+  <img src="assets/kali-dragon.gif" hight="100%" width="260" style="border-radius:12px;border:3.6px solid #ff0000;" alt="kali dragon animation"/>
 </div>
 
 <img src="assets/divider-glitch.svg" width="100%"/>
