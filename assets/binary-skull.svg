@@ -1,0 +1,59 @@
+<svg width="400" height="420" viewBox="0 0 400 420" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="binaryFill" width="34" height="20" patternUnits="userSpaceOnUse">
+      <rect width="34" height="20" fill="#00170c"/>
+      <text x="0" y="14" font-family="Courier New, monospace" font-size="13" fill="#39ff14">01</text>
+    </pattern>
+    <filter id="skullGlow">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="400" height="420" fill="#000000"/>
+
+  <g filter="url(#skullGlow)">
+    <!-- cranium -->
+    <path d="M200 20
+             C 90 20 55 110 65 190
+             C 70 225 90 245 95 270
+             L 95 300
+             L 305 300
+             L 305 270
+             C 310 245 330 225 335 190
+             C 345 110 310 20 200 20 Z"
+          fill="url(#binaryFill)" stroke="#39ff14" stroke-width="3"/>
+
+    <!-- jaw -->
+    <path d="M110 300 L110 335 C110 360 140 385 200 385 C260 385 290 360 290 335 L290 300 Z"
+          fill="url(#binaryFill)" stroke="#39ff14" stroke-width="3"/>
+
+    <!-- teeth -->
+    <g stroke="#39ff14" stroke-width="2">
+      <line x1="140" y1="300" x2="140" y2="335"/>
+      <line x1="170" y1="300" x2="170" y2="345"/>
+      <line x1="200" y1="300" x2="200" y2="350"/>
+      <line x1="230" y1="300" x2="230" y2="345"/>
+      <line x1="260" y1="300" x2="260" y2="335"/>
+    </g>
+
+    <!-- eye sockets -->
+    <ellipse cx="140" cy="175" rx="42" ry="52" fill="#000000" stroke="#ff2b6d" stroke-width="3"/>
+    <ellipse cx="260" cy="175" rx="42" ry="52" fill="#000000" stroke="#ff2b6d" stroke-width="3"/>
+
+    <!-- glowing pupils -->
+    <circle cx="140" cy="180" r="9" fill="#ff2b6d">
+      <animate attributeName="opacity" values="1;0.3;1" dur="1.6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="260" cy="180" r="9" fill="#ff2b6d">
+      <animate attributeName="opacity" values="1;0.3;1" dur="1.6s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- nasal cavity -->
+    <path d="M200 200 L182 245 L218 245 Z" fill="#000000" stroke="#00e5ff" stroke-width="3"/>
+  </g>
+
+  <text x="200" y="410" text-anchor="middle" font-family="Courier New, monospace" font-size="14" fill="#39ff14">
+    01001000 01000001 01000011 01001011
+  </text>
+</svg>
