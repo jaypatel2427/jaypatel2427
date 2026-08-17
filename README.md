@@ -1,6 +1,13 @@
 <div align="center">
+  
+<img src="./assets/header-banner1.svg" alt="Jay Patel header banner" width="100%">
 
+<br></br>
 <img src="assets/header-banner.svg" alt="header banner" width="100%"/>
+
+
+<img src="./assets/typing-bio2.svg" alt="typing bio">
+
 
 <img src="assets/typing-bio.svg" alt="typing bio"/>
 <background style="background-image:url('https://i.pinimg.com/originals/e2/8d/61/e28d61b0ce1b686bbd9c19b98912101f.gif');position:absolute;top:0;left:0;width:100%;height:1100%;z-index:-1;"></background>
@@ -12,10 +19,10 @@
 <table align="center">
 <tr>
 <td align="center" width="260">
-  <img src="assets/profile-avatar.png" width="220" style="border-radius:12px;border:3.6px solid #39ff14;" alt="profile avatar"/>
+  <img src="assets/profile-avatar.png" width="260" style="border-radius:12px;border:3.6px solid #39ff14;" alt="profile avatar"/>
 </td>
 <td align="center" width="260">
-  <img src="assets/kali-dragon.gif" width="180" style="border-radius:12px;border:3.6px solid #ff0000;" alt="kali dragon animation"/>
+  <img src="assets/kali-dragon.gif" width="200" style="border-radius:12px;border:3.6px solid #ff0000;" alt="kali dragon animation"/>
 </td>
 </tr>
 </table>
