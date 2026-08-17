@@ -1,28 +1,70 @@
-<svg width="640" height="90" viewBox="0 0 640 90" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <clipPath id="revealClip">
-      <rect x="0" y="0" height="90" width="0">
-        <animate attributeName="width"
-          values="0;560;560;0;0"
-          keyTimes="0;0.35;0.55;0.58;1"
-          dur="8s" repeatCount="indefinite"/>
-      </rect>
-    </clipPath>
-  </defs>
+<svg width="700" height="90" viewBox="0 0 700 90" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="1.6" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+</defs>
+<rect width="700" height="90" rx="10" fill="#020806" stroke="#00ff41" stroke-opacity="0.4" stroke-width="1.5"/>
+<circle cx="24" cy="22" r="6" fill="#ff5f56"/>
+<circle cx="44" cy="22" r="6" fill="#ffbd2e"/>
+<circle cx="64" cy="22" r="6" fill="#27c93f"/>
+<text x="350.0" y="26" text-anchor="middle" font-family="Consolas, Menlo, monospace" font-size="11" fill="#5fffa0" opacity="0.6">bash</text>
+<line x1="0" y1="38" x2="700" y2="38" stroke="#00ff41" stroke-opacity="0.25"/>
 
-  <rect width="640" height="90" fill="#00000000"/>
 
-  <g clip-path="url(#revealClip)">
-    <text x="10" y="35" font-family="Courier New, monospace" font-size="24" fill="#39ff14">
-      &gt; Cybersecurity Enthusiast | Kali Linux
-    </text>
-    <text x="10" y="68" font-family="Courier New, monospace" font-size="24" fill="#39ff14">
-      &gt; Learning to break things, then fix them
-    </text>
-  </g>
-
-  <rect x="0" y="10" width="12" height="26" fill="#39ff14">
-    <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.35;0.4;0.95;1" dur="8s" repeatCount="indefinite"/>
-    <animate attributeName="x" values="0;560;560;0;0" keyTimes="0;0.35;0.55;0.58;1" dur="8s" repeatCount="indefinite"/>
+<clipPath id="clip0">
+  <rect x="24" y="44" width="0" height="34">
+    <animate attributeName="width" values="0;290.0;290.0;0;0" keyTimes="0;0.0885;0.1808;0.2;1"
+             dur="13.0s" begin="0s" repeatCount="indefinite" calcMode="linear"/>
   </rect>
+</clipPath>
+<g clip-path="url(#clip0)">
+  <text x="30" y="68" font-family="Consolas, Menlo, monospace" font-size="20"
+        fill="#39ff6a" filter="url(#glow)">Learning Cyber Security <tspan fill="#c8ffd8">_</tspan></text>
+</g>
+
+<clipPath id="clip1">
+  <rect x="24" y="44" width="0" height="34">
+    <animate attributeName="width" values="0;0;313.0;313.0;0;0" keyTimes="0;0.2;0.2885;0.3808;0.4;1"
+             dur="13.0s" begin="0s" repeatCount="indefinite" calcMode="linear"/>
+  </rect>
+</clipPath>
+<g clip-path="url(#clip1)">
+  <text x="30" y="68" font-family="Consolas, Menlo, monospace" font-size="20"
+        fill="#39ff6a" filter="url(#glow)">Exploring Ethical Hacking <tspan fill="#c8ffd8">_</tspan></text>
+</g>
+
+<clipPath id="clip2">
+  <rect x="24" y="44" width="0" height="34">
+    <animate attributeName="width" values="0;0;278.5;278.5;0;0" keyTimes="0;0.4;0.4885;0.5808;0.6;1"
+             dur="13.0s" begin="0s" repeatCount="indefinite" calcMode="linear"/>
+  </rect>
+</clipPath>
+<g clip-path="url(#clip2)">
+  <text x="30" y="68" font-family="Consolas, Menlo, monospace" font-size="20"
+        fill="#39ff6a" filter="url(#glow)">CTF Player in progress <tspan fill="#c8ffd8">_</tspan></text>
+</g>
+
+<clipPath id="clip3">
+  <rect x="24" y="44" width="0" height="34">
+    <animate attributeName="width" values="0;0;267.0;267.0;0;0" keyTimes="0;0.6;0.6885;0.7808;0.8;1"
+             dur="13.0s" begin="0s" repeatCount="indefinite" calcMode="linear"/>
+  </rect>
+</clipPath>
+<g clip-path="url(#clip3)">
+  <text x="30" y="68" font-family="Consolas, Menlo, monospace" font-size="20"
+        fill="#39ff6a" filter="url(#glow)">Kali Linux Enthusiast <tspan fill="#c8ffd8">_</tspan></text>
+</g>
+
+<clipPath id="clip4">
+  <rect x="24" y="44" width="0" height="34">
+    <animate attributeName="width" values="0;0;255.5;255.5;0" keyTimes="0;0.8;0.8885;0.9808;1.0"
+             dur="13.0s" begin="0s" repeatCount="indefinite" calcMode="linear"/>
+  </rect>
+</clipPath>
+<g clip-path="url(#clip4)">
+  <text x="30" y="68" font-family="Consolas, Menlo, monospace" font-size="20"
+        fill="#39ff6a" filter="url(#glow)">root@jaypatel2427:~# <tspan fill="#c8ffd8">_</tspan></text>
+</g>
 </svg>
