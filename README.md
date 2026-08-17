@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="assets/divider-glitch.svg" width="100%"/>
+
 <br></br>
   
 <img src="./assets/header-banner1.svg" alt="Jay Patel header banner" width="100%">
@@ -24,18 +26,23 @@
 
 <br/>
 
-<table align="center">
+
+<table align="center" style="border: none;" border="0">
 <tr>
-<td align="center" width="260">
-  <img src="assets/profile-avatar.png" width="260" style="border-radius:12px;border:3.6px solid #39ff14;" alt="profile avatar"/>
+<td align="center" width="260" style="border: none;">
+  <img src="assets/profile-avatar.png" width="360" style="border-radius:12px;border:3.6px solid #39ff14;" alt="profile avatar"/>
 </td>
-<td align="center" width="260">
+<td align="center" width="260" style="border: none;">
   <img src="assets/kali-dragon.gif" width="200" style="border-radius:12px;border:3.6px solid #ff0000;" alt="kali dragon animation"/>
 </td>
 </tr>
 </table>
 
+<br></br>
+
 <img src="assets/divider-glitch.svg" width="100%"/>
+
+<br></br>
 
 ## `whoami`
 
@@ -54,6 +61,7 @@
 ## 🛠️ Tools & Arsenal
 
 <div align="center">
+
 
 ![Kali Linux](https://img.shields.io/badge/Kali%20Linux-557C94?style=for-the-badge&logo=kalilinux&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
