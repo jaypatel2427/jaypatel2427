@@ -1,0 +1,52 @@
+<svg width="900" height="220" viewBox="0 0 900 220" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#02110a"/>
+      <stop offset="100%" stop-color="#031a0f"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="900" height="220" fill="url(#bg)"/>
+
+  <!-- faint grid -->
+  <g stroke="#0f3d24" stroke-width="1" opacity="0.5">
+    <path d="M0 40 H900"/><path d="M0 80 H900"/><path d="M0 120 H900"/><path d="M0 160 H900"/><path d="M0 200 H900"/>
+    <path d="M60 0 V220"/><path d="M180 0 V220"/><path d="M300 0 V220"/><path d="M420 0 V220"/>
+    <path d="M540 0 V220"/><path d="M660 0 V220"/><path d="M780 0 V220"/>
+  </g>
+
+  <!-- scanline -->
+  <rect x="0" y="0" width="900" height="4" fill="#39ff14" opacity="0.25">
+    <animate attributeName="y" values="0;216;0" dur="4s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- glitch title, RGB split -->
+  <g filter="url(#glow)">
+    <text x="450" y="105" text-anchor="middle" font-family="Courier New, monospace" font-size="46" font-weight="bold" fill="#ff2b6d" opacity="0.55">
+      root@kali:~#
+      <animate attributeName="x" values="450;454;448;450" dur="2.6s" repeatCount="indefinite"/>
+    </text>
+    <text x="450" y="105" text-anchor="middle" font-family="Courier New, monospace" font-size="46" font-weight="bold" fill="#00e5ff" opacity="0.55">
+      root@kali:~#
+      <animate attributeName="x" values="450;446;452;450" dur="2.6s" repeatCount="indefinite"/>
+    </text>
+    <text x="450" y="105" text-anchor="middle" font-family="Courier New, monospace" font-size="46" font-weight="bold" fill="#39ff14">
+      root@kali:~#
+    </text>
+  </g>
+
+  <text x="450" y="150" text-anchor="middle" font-family="Courier New, monospace" font-size="20" fill="#7fffb0">
+    ./access_granted --user=you --role=security_researcher
+  </text>
+
+  <rect x="330" y="168" width="10" height="24" fill="#39ff14">
+    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+  </rect>
+</svg>
